@@ -1,0 +1,59 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.fath{
+display: flex;
+}
+
+.khello{
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  
+}
+
+.mhello{
+  margin-top: 65px;
+  margin-left:50px;
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+
+
+.shello{
+  
+  margin-top: 0px;
+  margin-left:0px;
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  
+  transform:rotate(45deg);
+}
+.shello h1{
+transform:rotate(-45deg);
+}
+.shello:hover{
+  background-color: red;
+}
+.khello:hover{
+  background-color: yellow;
+}
+.mhello:hover{
+  background-color: green;
+}
+body {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
